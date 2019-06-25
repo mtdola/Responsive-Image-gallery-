@@ -1,0 +1,24 @@
+p {
+	font-size: 2rem;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	border: 0 2px 2px 0;
+	border-color: rebeccapurple;
+	box-shadow: 4px 4px 5px #ddd;
+	width: 250px;
+}
+.imgcont {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+img {
+	width: 420px;
+	height: 260px;
+	margin: 10px;
+	transition: all 1200ms
+}
+img:hover {
+	transform: scale(1.2);
+}
